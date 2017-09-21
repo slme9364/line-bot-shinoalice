@@ -34,6 +34,7 @@ loop{
   time = Time.now
   if send_time && time.sec == 0
     post
+    sleep(1)
   end
 }
 
