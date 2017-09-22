@@ -21,7 +21,7 @@ end
 
 def send_time
   time = Time.now
-  if (time.hour == 7 || time.hour == 19) && time.min == 30
+  if (time.hour == 7 || time.hour == 19 || time.hour == 22) && time.min == 30
     return true
   end
   if time.hour == 12 && time.min == 0
